@@ -13,13 +13,25 @@ html {
 
 body {
   width: 100%;
-  background: #0E0E0E
+  background: #0E0E0E;
 }
 
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 
+}
+
+.site {
+  background: url("https://images.pexels.com/photos/316902/pexels-photo-316902.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;
 }
 
 .navbar::after; {
@@ -124,7 +136,7 @@ nav ul li a {
   }
 
   .nav-wrapper ul li:nth-child(1) a {
-    transition-delay: 0.2s;
+    transition-delay: 0.4s;
 
   }
   .nav-wrapper ul li:nth-child(2) a {
@@ -132,7 +144,7 @@ nav ul li a {
 
   }
   .nav-wrapper ul li:nth-child(3) a {
-    transition-delay: 0.4s;
+    transition-delay: 0.2s;
 
   }
   .nav-wrapper ul li:not(:first-child) {
@@ -223,14 +235,17 @@ nav ul li a {
 
 header {
   margin: 300px 0 300px 120px;
+  position: relative;
+  top: 10px;
 }
 
 header p {
   width: 60%;
-  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 .work {
+  margin-top: 250px;
   text-align: center;
   width: 100%;
 }
@@ -267,7 +282,7 @@ footer p {
 }
 
 
- @media only screen and (max-width: 991px) {
+ @media only screen and (max-width: 864px) {
    header {
      text-align: left;
      margin: 200px 0px 400px 30px;
